@@ -1,0 +1,59 @@
+/* Global selector */
+* {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Headers selectors*/
+
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+/* selector for links*/
+
+a:link, a:active, a:visited, a:hover{
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    
+}
+
+/* List selector */
+
+li {
+    color: white;
+    list-style: none;
+    line-height: 200%;
+}
+
+span {
+    font-size: 11px;
+    color: white;
+}
+
+/* Backgroung */
+
+.bg {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Footer */
+footer{
+    text-align: start;
+    background-color: dimgray;
+}
